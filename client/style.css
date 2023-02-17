@@ -11,6 +11,15 @@ body {
   background: #343541;
 }
 
+nav{
+  width: 100%;
+}
+
+.nav-img{
+  margin-left: 0.5em;
+  margin-right: 0.5em;;
+}
+
 #app {
   width: 100vw;
   height: 100vh;
