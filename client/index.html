@@ -19,7 +19,8 @@
       <div id="chat_container"></div>
 
       <form action="">
-        <textarea name="prompt" id="" cols="1" rows="1" placeholder="Ask CodeWhiz..."></textarea>
+        <!-- <textarea name="prompt" id="" cols="1" rows="1" placeholder="Ask CodeWhiz..."></textarea>     hey,just removing your textarea box as I just found that it wasn't looking fine with all that you allowed user to resize the box -->  
+        <textarea name="prompt" tabindex="0" placeholder="Ask CodeWhiz..." data-id="root" style="resize: none; max-height: 200px; height: 24px; overflow-y: hidden;" rows="1" class="m-0 w-full resize-none border-0 bg-transparent p-0 pl-2 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent md:pl-0"></textarea>
         <button type="submit"><img src="assets/send.svg" alt=""></button>
       </form>
     </div>
